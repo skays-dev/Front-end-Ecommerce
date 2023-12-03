@@ -18,19 +18,39 @@ module.exports = {
         dark: {
           colors: {
             primary: {
-              DEFAULT: "#BEF264",
-              foreground: "#000000",
+              DEFAULT: "#7d5a50",
             },
-            focus: "#BEF264",
+            secondary: {
+              DEFAULT: "#2f221e",
+            },
+            tertiary: {
+              DEFAULT: "#000",
+            },
+            background: {
+              DEFAULT: "#000",
+            },
+            keyword: {
+              DEFAULT: "#fff"
+            }
           },
         },
         light: {
           colors: {
             primary: {
-              DEFAULT: "#FE8484",
-              foreground: "#000000",
+              DEFAULT: "#7d5a50",
             },
-            focus: "#FE8484",
+            secondary: {
+              DEFAULT: "#ba9b93",
+            },
+            tertiary: {
+              DEFAULT: "#ebe3e1",
+            },
+            background: {
+              DEFAULT: "#fff",
+            },
+            keyword: {
+              DEFAULT: "#000"
+            }
           },
         },
       },
