@@ -37,9 +37,18 @@ export default function RootLayout({
 				)}
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-					<div className="">
+					<main className="grid grid-cols-12 h-screen   ">
+						<aside className="col-span-2 bg-black">
+							Sidebar
+						</aside>
+						<div className="col-span-10">
+							<div className=" h-16 bg-slate-500" >
+								NavBar
+							</div>
+							{children}
+						</div>
 						
-					</div>
+					</main>
 				</Providers>
 			</body>
 		</html>
